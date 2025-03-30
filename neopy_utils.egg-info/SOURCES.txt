@@ -1,4 +1,5 @@
 LICENSE
+MANIFEST.in
 README.md
 setup.py
 neopy_utils.egg-info/PKG-INFO
