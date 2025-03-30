@@ -5,9 +5,7 @@ import asyncio
 import tempfile
 import sys
 from functools import wraps
-
 import neo
-
 
 def test_decorator(func):
     """Simple test decorator to run and report test functions."""

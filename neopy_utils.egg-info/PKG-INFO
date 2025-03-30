@@ -1,3 +1,31 @@
+Metadata-Version: 2.1
+Name: neopy-utils
+Version: 1.0.0
+Summary: A powerful Python utility library with retry mechanisms, concurrency helpers, and more
+Home-page: https://github.com/neoapps/neo-py
+Author: NEOAPPS
+Author-email: asd22.info@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/neoapps/neo-py/issues
+Project-URL: Documentation, https://github.com/neoapps/neo-py
+Project-URL: Source Code, https://github.com/neoapps/neo-py
+Keywords: retry,utilities,concurrency,memoize,rate limiting,validation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # neo.py Utils
 
 A powerful Python utility library that helps you write more robust and efficient code.
@@ -131,3 +159,4 @@ is_valid = verify_password("my_secure_password", hashed_password, salt)
 ## License
 
 MIT License
+

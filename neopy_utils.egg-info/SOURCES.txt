@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+neopy_utils.egg-info/PKG-INFO
+neopy_utils.egg-info/SOURCES.txt
+neopy_utils.egg-info/dependency_links.txt
+neopy_utils.egg-info/top_level.txt

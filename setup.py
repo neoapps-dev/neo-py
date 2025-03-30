@@ -11,7 +11,7 @@ setup(
     description="A powerful Python utility library with retry mechanisms, concurrency helpers, and more",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/neoapps/neo-py",
+    url="https://github.com/neoapps-dev/neo-py",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -29,8 +29,10 @@ setup(
     python_requires=">=3.7",
     keywords="retry, utilities, concurrency, memoize, rate limiting, validation",
     project_urls={
-        "Bug Tracker": "https://github.com/neoapps/neo-py/issues",
-        "Documentation": "https://github.com/neoapps/neo-py",
-        "Source Code": "https://github.com/neoapps/neo-py",
+        "Bug Tracker": "https://github.com/neoapps-dev/neo-py/issues",
+        "Documentation": "https://github.com/neoapps-dev/neo-py",
+        "Source Code": "https://github.com/neoapps-dev/neo-py",
     },
+    license='MIT',
+    license_file='LICENSE',
 )
