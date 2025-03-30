@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="neo-py",
+    name="neopy-utils",
     version="1.0.0",
     author="NEOAPPS",
     author_email="asd22.info@gmail.com",

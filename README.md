@@ -1,11 +1,11 @@
-# neo.py
+# neo.py Utils
 
 A powerful Python utility library that helps you write more robust and efficient code.
 
 ## Installation
 
 ```bash
-pip install neo-py
+pip install neopy-utils
 ```
 
 ## Features
@@ -24,7 +24,7 @@ pip install neo-py
 ### Retry Decorator
 
 ```python
-from neo import retry
+from neopy-utils import retry
 
 @retry(max_retries=5, delay=1, backoff_factor=2, jitter=True)
 def unstable_network_call():
@@ -35,7 +35,7 @@ def unstable_network_call():
 ### Async Retry
 
 ```python
-from neo import retry_async
+from neopy-utils import retry_async
 
 @retry_async(max_retries=3, delay=0.5)
 async def unstable_api_call():
@@ -46,7 +46,7 @@ async def unstable_api_call():
 ### Memoization
 
 ```python
-from neo import memoize
+from neopy-utils import memoize
 
 @memoize
 def fibonacci(n):
@@ -58,7 +58,7 @@ def fibonacci(n):
 ### Performance Timing
 
 ```python
-from neo import timed
+from neopy-utils import timed
 
 @timed
 def expensive_operation():
@@ -69,7 +69,7 @@ def expensive_operation():
 ### Rate Limiting
 
 ```python
-from neo import RateLimiter
+from neopy-utils import RateLimiter
 
 rate_limiter = RateLimiter(max_calls=100, period=60)
 
@@ -82,7 +82,7 @@ def api_call():
 ### Argument Validation
 
 ```python
-from neo import validate_args
+from neopy-utils import validate_args
 
 @validate_args(
     user_id=lambda x: isinstance(x, int) and x > 0,
@@ -96,7 +96,7 @@ def register_user(user_id, email, name=None):
 ### Running Code in a Thread
 
 ```python
-from neo import run_in_thread
+from neopy-utils import run_in_thread
 
 @run_in_thread
 def background_task():
@@ -110,7 +110,7 @@ thread.join()  # Wait for completion if needed
 ### Processing Data in Chunks
 
 ```python
-from neo import chunked
+from neopy-utils import chunked
 
 for chunk in chunked(large_list, 1000):
     process_chunk(chunk)
@@ -119,7 +119,7 @@ for chunk in chunked(large_list, 1000):
 ### Password Security
 
 ```python
-from neo import hash_password, verify_password
+from neopy-utils import hash_password, verify_password
 
 # Hash a password
 hashed_password, salt = hash_password("my_secure_password")
